@@ -1,0 +1,133 @@
+.header {
+  height: 67px;
+  width: 100%;
+  background-color: #1e3741;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  z-index: 1000;
+  /* padding: 5px 50px; */
+}
+
+.header-container {
+  width: 100vw;
+  height: 43px;
+  display: grid;
+  grid-template-columns: 10% 20% 60% 10%;
+}
+
+.left-header-content {
+  grid-column: 2/3;
+}
+
+.header-logo {
+  overflow: hidden;
+  height: 43px;
+  position: relative;
+}
+
+.nav-list {
+  height: 37px;
+  width: 540px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.nav-list-link {
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.nav-list-link:hover {
+  text-decoration: underline;
+}
+
+.contact-info-icon {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.hambeger_box {
+  height: 100%;
+  width: 40px;
+  display: grid;
+  place-items: center;
+  display: none;
+}
+
+.hamberger_icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.mobile_menu_nav {
+  width: 100vw;
+  background-color: rgb(202, 207, 209);
+  position: fixed;
+  top: 60px;
+  z-index: 999;
+  padding: 20px;
+}
+
+.mobile_menu_list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.mobile_list_link {
+  color: #1e3741;
+  text-decoration: none;
+  height: 30px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.active_page_link {
+  color: red;
+  text-decoration: underline;
+}
+
+.active_mobile_page_link {
+  color: red;
+}
+
+@media (max-width: 860px) {
+  .header-container {
+    grid-template-columns: 20px 1fr 1fr 20px;
+  }
+  .hambeger_box {
+    display: grid;
+  }
+  .nav-list {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .hamberger_icon {
+    width: 30px;
+    height: 30px;
+  }
+}

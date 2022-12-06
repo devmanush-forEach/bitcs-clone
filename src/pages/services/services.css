@@ -1,0 +1,103 @@
+.service-main-head {
+  height: 80vh;
+  width: 100%;
+  top: 67px;
+  display: grid;
+  place-items: center;
+}
+
+.service-main-bgi {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.service-main-head-content {
+  text-align: center;
+  width: 90vw;
+}
+.service-main-head-content h2 {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  background-image: linear-gradient(to right, #0086e0, #000);
+  background-clip: text;
+  color: transparent;
+}
+
+.service-main-head-content p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  padding: 0px 1.5rem;
+}
+
+.service-bottom-section {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text-header {
+  max-width: 800px;
+  margin: auto;
+}
+
+.text-header h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.text-header p {
+  font-weight: 400;
+  color: #666666;
+  margin-bottom: 40px;
+}
+
+.text-header button {
+  width: 170px;
+  height: 38px;
+  padding: 6px 12px;
+  border: 1px solid #007bff;
+  color: #007bff;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+.text-header button:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .service-main-head {
+    height: fit-content;
+    width: 100%;
+    top: 80px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 60px;
+  }
+
+  .service-main-bgi {
+    display: none;
+  }
+
+  .service-main-head-content {
+    text-align: left;
+    width: 90vw;
+  }
+  .service-main-head-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-main-head-content p {
+    font-size: 1rem;
+    padding: 0px;
+  }
+}

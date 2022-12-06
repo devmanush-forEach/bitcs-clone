@@ -1,0 +1,67 @@
+.home-service-main-section {
+  width: 100vw;
+  margin: 20px auto;
+  box-shadow: 10px 10px 20px rgb(240, 229, 229);
+}
+
+.service-heading-container {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.service-heading-container h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  margin-bottom: 20px;
+}
+
+.service-heading-container p {
+  line-height: 24px;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.service-tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.service-tile {
+  min-width: 300px;
+  max-width: 350px;
+  width: 31%;
+  height: 165px;
+  background-color: #fff;
+  margin-top: 50px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 7px;
+}
+
+.service-tile h2 {
+  font-size: 18px;
+  line-height: 20px;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media (max-width: 750px) {
+  .service-tiles-container {
+    gap: 0px;
+  }
+
+  .service-tile h2 {
+    font-size: 18px;
+    line-height: 20px;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+  }
+}

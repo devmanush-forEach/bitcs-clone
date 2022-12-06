@@ -1,0 +1,87 @@
+.domain-main-section {
+  width: 100vw;
+  padding: 50px 0px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 10px 10px 20px rgb(240, 229, 229);
+}
+
+.domain-heading-container {
+  width: 90%;
+  margin: auto;
+}
+
+.domain-heading-container h2 {
+  color: #484646;
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.domain-heading-container p {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 40px 0px;
+  margin: 0px 75px;
+}
+
+.domain-tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.domain-tile-div {
+  flex-basis: 32%;
+  max-width: 445px;
+  min-width: 350px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.domain-tile-img {
+  width: 80px;
+}
+
+.domain-tile-img img {
+  width: 70%;
+}
+
+.domain-tile-text {
+  width: 70%;
+  text-align: left;
+}
+
+.domain-tile-text h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 16px;
+  margin: 10px 0px 24px 16px;
+}
+
+.domain-tile-text p {
+  font-size: 18px;
+  font-weight: 100;
+  color: #666666;
+  line-height: 28px;
+}
+
+@media (max-width: 750px) {
+  .domain-heading-container p {
+    margin: 0px;
+  }
+
+  .domain-tile-text h2 {
+    font-size: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  .domain-tile-text p {
+    font-size: 14px;
+  }
+}

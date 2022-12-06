@@ -1,0 +1,122 @@
+.home-main-container {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  position: relative;
+  background-color: #f5f5f5;
+  margin-top: 15px;
+  box-shadow: 10px 10px 20px rgb(240, 229, 229);
+}
+
+.bg {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  background: url("../../assets/background/home-bgi.png") center center
+    no-repeat;
+  position: absolute;
+  opacity: 0.75;
+}
+
+.home-upper-content {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+}
+
+.upper-left-intro {
+  width: 73.5vw;
+  margin: auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.main-intro-heading {
+  display: block;
+  width: fit-content;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  word-spacing: 10px;
+  font-weight: 400;
+}
+
+.main-intro-title {
+  width: 400px;
+  font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  text-align: left;
+  font-weight: 200;
+  margin-bottom: 48px;
+  line-height: 30px;
+}
+
+.main-intro-desc {
+  line-height: 30px;
+  word-spacing: 5px;
+  width: 400px;
+  font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.intro-contact-btn {
+  width: 240px;
+  height: 64px;
+  border-radius: 70px;
+  outline: none;
+  border: 2px solid #52ddb1;
+  color: #52ddb1;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: 2px;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  background: transparent;
+}
+
+.contact-btn-link {
+  color: #52ddb1;
+  text-decoration: none;
+}
+
+@media (max-width: 750px) {
+  .home-main-container {
+    min-height: fit-content;
+  }
+
+  .bg {
+    margin: 0px;
+    background: none;
+  }
+  .home-upper-content {
+    height: fit-content;
+  }
+
+  .upper-left-intro {
+    width: 90vw;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    padding: 10px;
+    padding-top: 100px;
+  }
+
+  .main-intro-title {
+    width: 100%;
+  }
+
+  .main-intro-desc {
+    width: 100%;
+  }
+
+  .intro-contact-btn {
+    margin-top: 0px;
+  }
+}

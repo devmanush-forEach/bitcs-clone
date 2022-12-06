@@ -1,0 +1,137 @@
+.main-footer {
+  width: 100%;
+  background-color: #979797;
+  padding: 40px;
+  padding-bottom: 60px;
+}
+
+.footer-row {
+  height: 100%;
+  width: 100%;
+  /* background-color: #fff; */
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parent-child h3 {
+  margin-bottom: 15px;
+}
+
+.parent-child ul {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.parent-child ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.parent-child ul li a:hover {
+  text-decoration: underline;
+}
+
+.copyright-section {
+  height: 61px;
+  width: 100%;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.copyright-section-container {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-around; */
+}
+
+.copyright-text {
+  /* border: none; */
+  display: grid;
+  place-items: center;
+  width: 50%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.social-icon {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.list-inline-item {
+  width: 50px;
+}
+
+.list-inline-item a i {
+  font-size: 26px;
+  color: black;
+  opacity: 0.8;
+  transition: all 0.1s;
+}
+
+.list-inline-item a i:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 700px) {
+  .main-footer {
+    display: none;
+  }
+
+  .copyright-section {
+    height: 61px;
+    width: 100%;
+    padding: 16px;
+    background-color: #fff;
+  }
+
+  .copyright-section-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .copyright-text {
+    width: 40%;
+    font-size: 10px;
+  }
+
+  .social-icon {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .social-icon-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+
+  .list-inline-item {
+    width: 10px;
+  }
+
+  .list-inline-item a i {
+    font-size: 15px;
+  }
+}
