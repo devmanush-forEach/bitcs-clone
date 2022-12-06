@@ -5,9 +5,6 @@
 
 <hr>
 
-
-<hr>
-
 <h2>Stack and Libraries Used</h2>
 <ul>
   <li>HTML5</li>
