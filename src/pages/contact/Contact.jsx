@@ -52,7 +52,7 @@ export const Contact = () => {
               <input
                 type="text"
                 name="name"
-                required=""
+                required="required"
                 value={formData.name}
                 onChange={handleChange}
               />
@@ -65,7 +65,7 @@ export const Contact = () => {
               <input
                 type="text"
                 name="email"
-                required=""
+                required="required"
                 value={formData.email}
                 onChange={handleChange}
               />
@@ -79,7 +79,7 @@ export const Contact = () => {
               <input
                 type="text"
                 name="phone"
-                required=""
+                required="required"
                 value={formData.phone}
                 onChange={handleChange}
               />
@@ -92,7 +92,7 @@ export const Contact = () => {
               <input
                 type="text"
                 name="company"
-                required=""
+                required="required"
                 value={formData.company}
                 onChange={handleChange}
               />
@@ -106,7 +106,7 @@ export const Contact = () => {
               <input
                 type="text"
                 name="help"
-                required=""
+                required="required"
                 value={formData.help}
                 onChange={handleChange}
               />

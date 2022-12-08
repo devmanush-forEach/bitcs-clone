@@ -120,7 +120,7 @@
   padding: 0px 3px;
   height: 30px;
 }
-
+.form-group input:valid + label,
 .form-group input:focus + label {
   color: #337ab7;
   top: -20px;
